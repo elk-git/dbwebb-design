@@ -1,11 +1,10 @@
 ---
-Title: Home
-Description: This is our index page.
+Title: Hem
+Description: Detta är index page.
 ---
 
-Home page
-==========================
+# Startsida
 
-The source for this page is in `content/index.md`.
+Hej, detta är startsidan. Nedan följer en kort presentation om mig.
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jag heter Elis och studerar, vid sidan om detta, även juridik i Uppsala. Jag är även fotbollsdomare och har varit det sedan 2017.
