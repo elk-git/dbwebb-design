@@ -1,13 +1,72 @@
-@use "../../node_modules/normalize.css/normalize";
-@use "variables";
+@use '../../node_modules/normalize.css/normalize';
+@use 'variables';
 
-@use "blockquotes";
-@use "code";
-@use "mobile-menu";
+@use 'blockquotes';
+@use 'code';
+@use 'mobile-menu';
+@use 'header';
+@use 'footer';
+@use 'typo';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
 body {
   background-color: variables.$background-color;
+  overflow-x: hidden;
 }
 
 * {
   color: variables.$font-color;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.main {
+  min-width: 100vw;
+  padding: 2vw 4vw;
+
+  p img {
+    max-width: 25%;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+/* Placement */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
 }

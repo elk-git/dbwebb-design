@@ -1,0 +1,17 @@
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #222;
+  min-width: 100vw;
+  padding: 4vh 4vw;
+}
+
+.footer a {
+  color: #222;
+}
+
+.footer .social {
+  font-size: 2rem;
+}
