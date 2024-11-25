@@ -1,0 +1,13 @@
+@use "../../node_modules/normalize.css/normalize";
+@use "variables";
+
+@use "blockquotes";
+@use "code";
+@use "mobile-menu";
+body {
+  background-color: variables.$background-color;
+}
+
+* {
+  color: variables.$font-color;
+}
