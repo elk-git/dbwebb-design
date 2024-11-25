@@ -4,5 +4,8 @@ Tagline: Mitt portfolio.
 Social:
   - title: Link till sidans github repo.
     url: "https://github.com/elk-git/dbwebb-design"
-    icon: github
+    icon: fab fa-github
+  - title: Link till dbwebb-kurs-sidan.
+    url: "https://dbwebb.se/kurser/design-v3"
+    icon: fas fa-school
 ---
