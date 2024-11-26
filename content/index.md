@@ -1,7 +1,6 @@
 ---
 Title: Hem
 Description: Detta är index page.
-Template: technologies
 ---
 
 # Startsida
