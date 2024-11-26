@@ -1,14 +1,66 @@
 /* technology.scss */
-.landingpage {
-  display: grid;
+
+.landingpage h1 {
+  grid-column: span 3;
 }
 
-// .landingpage h1 {
-//   grid-column: span 3;
-//   justify-self: center;
-// }
-
 .landingpage {
   display: grid;
-  gap: 1em 1em;
+  grid-template-rows: 1fr min-content;
+  grid-template-areas:
+    'one two'
+    'one three';
+  gap: 1em;
+}
+
+.landingpage div {
+  background: #c00404;
+  justify-content: center;
+}
+
+.landingpage .wide {
+  grid-column: span 2; /* Gör denna kolumn bredare */
+}
+
+.landingpage .fullwide {
+  grid-column: span 3; /* Gör denna kolumn bredare */
+}
+
+.landingpage .box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 8px;
+  font-weight: 800;
+
+  a {
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 250ms ease;
+  }
+
+  a:hover {
+    opacity: 0.2;
+  }
+}
+
+.viewtech {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  gap: 1em;
+
+  .sidebar {
+    width: clamp(100px, 10%, 200px);
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #000;
+    padding: 0 1em;
+  }
+
+  div {
+    overflow-wrap: wrap;
+    flex-wrap: wrap;
+  }
 }
