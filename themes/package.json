@@ -10,7 +10,7 @@
     "lint": "stylelint \"**/*.scss\"",
     "watch": "sass elk/scss/style.scss:elk/css/style.css elk/scss/style-dark.scss:elk/css/style-dark.css --no-source-map --watch",
     "watch-min": "sass elk/scss/style.scss:elk/css/style.min.css elk/scss/style-dark.scss:elk/css/style-dark.min.css --no-source-map --watch --style compressed",
-    "style": "npm run style-light && npm run style-dark",
+    "style": "npm run style-light && npm run style-dark && npm run style-light-min && npm run style-dark-min",
     "style-min": "npm run style-light-min && npm run style-dark-min",
     "style-dark": "sass elk/scss/style-dark.scss elk/css/style-dark.css --no-source-map",
     "style-dark-min": "sass elk/scss/style-dark.scss elk/css/style-dark.min.css --no-source-map --style compressed",
