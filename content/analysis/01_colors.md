@@ -1,4 +1,4 @@
-# Titel på rapporten
+# Rapport kmom04 - Färger och titlar.
 
 Detta är en rapport för kmom04. Uppgiften handlar om att analysera tre hemsidors färgscheman. Jag arbetar ensam och har valt MSA, Snellman och Vinge. Dessa är tre affärsjuridiska advokatbyråer som jag redan innan vet ser ut på egentligen helt olika sätt.
 
