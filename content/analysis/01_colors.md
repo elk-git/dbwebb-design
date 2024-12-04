@@ -100,12 +100,25 @@ Jag tror Snellman vill förmedla förtroende och elegans och stabilitet.
 
 ## Analys
 
-Diskutera och analysera de resultaten du fann.
+Denna "studie" har varit väldigt intressant. Kul nog har det blivit lite så att MSA och Vinge har helt olika hemsidor (rent färgmässigt) och Snellman hamnar i mitten. Tyvärr hamnar dock snellman längst ner när det kommer till hur snygg den är. Man ser tydligt att färgerna inte är optimala ihop. Man märker att vinge har haft en entreprenör som specialiserat inom UX/UI medan snellman blir mer som en good try. Exempelvis har Snellamn endast 92 i tillgänglighet i PageSpeed Insights test med felet (Kontrasten mellan bakgrundsfärg och förgrundsfärg är inte tillräckligt stor).
+
+Samtliga använder inte H1, H2 och H3, utan det blir mest H1 och H2 och sedan p eller a med olika storlek. Och det är endast Vinge som använder olika font-styles. Både att de har olika "weight" samt att de använder ett helt annat font-family för knappar.
+
+MSA använder svart och vitt, vilket signalerar minimalism.
+Vinge använder toner av grön med accent på guld. Detta signalerar normalt en avkopplande känsla, och guld en viss elegans.
+Snellan använder toner av blå. Som normalt signalerar förtroende.
+
+Jag tycker egentligen både Vinge och MSA får fram ett bra intryck, och om man går tillbaka till vad de anser är deras företagskultur stämmer färg-användningen väl överrens med denna. Snellman gör det hyfsat-okej. Jag tycker man har hamnat lite i ett mellanting mellan att signalera förtroende och kunskap men det blir lite "sloppy".
+
+Något intressant är att samtliga hemsidor använder mycket bilder, särskilt för landing-pagen. En slutsats som kan dras av detta är att samtliga har analyserat branschen och inte gått från denna norm..
 
 ## Referenser
 
-Ange de eventuella referenser du använder dig av, om några.
+[Mannheimer Swartling](https://www.mannheimerswartling.se/)
+[Vinge](https://www.vinge.se/)
+[Snellman](https://snellman.com/)
+[Färgers betydelse](https://www.keim.com/sv-se/faergpsykologi/)
 
 ## Övrigt
 
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+Elis Sandklo (elsd23).
