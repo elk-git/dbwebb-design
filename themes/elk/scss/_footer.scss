@@ -3,13 +3,13 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #222;
+  border-top: 1px solid $primary;
   min-width: 100vw;
   padding: 4vh 4vw;
 }
 
 .footer a {
-  color: #222;
+  color: $text;
 }
 
 .footer .social {

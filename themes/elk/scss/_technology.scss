@@ -14,7 +14,7 @@
 }
 
 .landingpage div {
-  background: #c00404;
+  background: $accent;
   justify-content: center;
 }
 
@@ -55,7 +55,7 @@
     width: clamp(100px, 10%, 200px);
     display: flex;
     flex-direction: column;
-    border-right: 1px solid #000;
+    border-right: 1px solid $primary;
     padding: 0 1em;
   }
 

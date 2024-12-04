@@ -1,5 +1,5 @@
 .header {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid $primary;
   min-width: 100vw;
   padding: 2vh 4vw;
   height: fit-content;
@@ -51,7 +51,7 @@
 }
 
 .title * {
-  color: #111;
+  color: $primary;
 }
 
 .title p {
