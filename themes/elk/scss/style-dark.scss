@@ -15,3 +15,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
+
+.logo a img {
+  max-width: 256px;
+  filter: invert(1);
+}
