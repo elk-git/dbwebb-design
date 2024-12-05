@@ -1,6 +1,7 @@
 ---
 Title: Gallery
 Description: Detta är gallery page.
+Template: galleryview
 ---
 
 <p>
