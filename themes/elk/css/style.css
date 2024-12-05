@@ -627,6 +627,26 @@ img {
   flex-wrap: wrap;
 }
 
+img:not([alt]) {
+  outline: 4px red dashed !important;
+}
+
+.gallery p {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  width: 100%;
+}
+
+.gallery p img {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .gallery p {
+    grid-template-columns: 1fr !important;
+  }
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
