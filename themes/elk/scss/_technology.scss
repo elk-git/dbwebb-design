@@ -31,12 +31,19 @@
   flex-direction: column;
   padding: 10px 8px;
   font-weight: 800;
+  background: linear-gradient(
+    90deg,
+    rgba($primary, 1) 0%,
+    rgba($accent, 1) 100%
+  );
+  color: rgba($background, 0.7);
 
   a {
     font-weight: 400;
     font-size: 12px;
     cursor: pointer;
     transition: all 250ms ease;
+    color: rgba($background, 0.45);
   }
 
   a:hover {

@@ -24,8 +24,11 @@ ul {
 }
 
 .main {
-  min-width: 100vw;
-  padding: 2vw 20vw;
+  min-width: 90vw;
+  max-width: 90vw;
+  padding: 0 1vw;
+  border-left: 4px groove rgba($primary, 0.5);
+  border-right: 4px groove rgba($primary, 0.5);
 
   p img {
     max-width: 25%;

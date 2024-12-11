@@ -3,9 +3,11 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid $primary;
-  min-width: 100vw;
-  padding: 4vh 4vw;
+  border-top: 1px solid rgba($primary, 0.5);
+  min-width: 90vw;
+  max-width: 90vw;
+  padding: 1vh 0;
+  margin-top: 2vh;
 }
 
 .footer a {
@@ -13,5 +15,9 @@
 }
 
 .footer .social {
-  font-size: 2rem;
+  font-size: 1.2rem;
+  color: rgba($primary, 0.5);
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
 }

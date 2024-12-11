@@ -1,8 +1,10 @@
 .header {
-  border-bottom: 1px solid $primary;
-  min-width: 100vw;
-  padding: 2vh 4vw;
+  border-bottom: 1px solid rgba($primary, 0.5);
+  min-width: 90vw;
+  max-width: 90vw;
   height: fit-content;
+  padding: 1vh 0;
+  margin-bottom: 2vh;
 
   .site-header {
     gap: 2vw;
@@ -23,6 +25,10 @@
 .title,
 .logo {
   padding: 0;
+
+  a {
+    color: $background;
+  }
 }
 
 .logo a img {
