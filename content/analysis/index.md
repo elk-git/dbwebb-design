@@ -14,3 +14,7 @@ Description: Detta är rapport page.
 # KMOM06
 
 <a href="%base_url%?analysis/03_design_principles">Rapport om designprinciper</a>
+
+# KMOM10
+
+<a href="%base_url%?analysis/10_webbplatsdesign">Rapport om designprinciper</a>
