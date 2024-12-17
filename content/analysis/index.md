@@ -17,4 +17,8 @@ Description: Detta är rapport page.
 
 # KMOM10
 
-<a href="%base_url%?analysis/10_webbplatsdesign">Rapport om designprinciper</a>
+<a href="%base_url%?analysis/10_webbplatsdesign">Uppdr. 5 - Analys aktuell webbdesign</a>
+
+<br>
+
+<a href="%base_url%?analysis/11_design-och-webbplatser">Uppdr. 6 - Analys valfri</a>
